@@ -15,7 +15,7 @@ def calculator():
     global count_negativeComment, count_neutralComment, count_share
     global count_likePage, count_reach, count_follower, count_post
     
-    box1_view, box2_likePost, box3_unlike = st.beta_columns(3)
+    box1_view, box2_likePost, box3_unlike = st.columns(3)
     
     box4_positiveComment, box5_negativeComment, box6_neutralComment = st.columns(3)
 
