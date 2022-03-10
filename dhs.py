@@ -91,7 +91,7 @@ def dhsTables():
 
     st.markdown(title, unsafe_allow_html=True)
 
-    with open ('X:\Enteraction\DHS\DHS Tables.pdf',"rb") as f:
+    with open ('DHS Tables.pdf',"rb") as f:
         base64_pdf = base64.b64encode(f.read()).decode('utf-8')
 
     pdf_display = f'<iframe src="data:application/pdf;base64,{base64_pdf}" width="800" height="700" type="application/pdf"></iframe>'
