@@ -17,11 +17,11 @@ def calculator():
     
     box1_view, box2_likePost, box3_unlike = st.beta_columns(3)
     
-    box4_positiveComment, box5_negativeComment, box6_neutralComment = st.beta_columns(3)
+    box4_positiveComment, box5_negativeComment, box6_neutralComment = st.columns(3)
 
-    box7_share, box8_likePage, box9_reach = st.beta_columns(3)
+    box7_share, box8_likePage, box9_reach = st.columns(3)
 
-    box10_follower, box11_post, box11 = st.beta_columns(3)
+    box10_follower, box11_post, box11 = st.columns(3)
 
     with box1_view:
         count_view = st.number_input('Number of Views:')
